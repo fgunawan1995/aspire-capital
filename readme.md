@@ -1,9 +1,12 @@
 ## Installation
 
 1. Clone this repo
-2. Run composer install
-3. Migrate db php artisan migrate:fresh
-4. Serve php artisan serve
+2. Create db sqlite : touch /absolute/path/to/db.sqlite
+3. Rename .env.example to .env
+4. Change DB_DATABASE in .env
+5. Run composer install
+6. Migrate db php artisan migrate:fresh
+7. Serve php artisan serve
 
 ## Endpoints
 
